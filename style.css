@@ -1,0 +1,162 @@
+nav > ul {
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+nav > #signin > a {
+    text-decoration: none;
+    color: inherit;
+}
+nav > #signin {
+    width: 68px;
+    height: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    top: 3.3%;
+    right: 10%;
+}
+nav > #signup > a {
+    text-decoration: none;
+    color: white;
+}
+nav > #signup {
+    width: 68px;
+    height: 20px;
+    background: black;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+    position: absolute;
+    top: 3.6%;
+    right: 2%;
+
+}
+
+#main {
+    text-align: center;
+}
+#main > h1 {
+    font-size: 40px;
+}
+#main > p {
+    font-size: 9px;
+    position: relative;
+}
+#main > #kruh {
+    font-size: 10px;
+    color: grey;
+    background: whitesmoke;
+    display: inline-flex;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 25px;
+    align-items: center;
+}
+#main > #kurzy {
+    font-size: 10px;
+    width: 120px;
+    height: 30px;
+    background: black;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    left: 35%;
+    color: white;
+    position: absolute;
+
+}
+#main > #kurzy > a {
+    text-decoration: none;
+    color: white;
+}
+#main > #bootcamp {
+    font-size: 10px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    right: 35%;
+    top: 33%;
+}
+#main > #bootcamp > a {
+    text-decoration: none;
+    color: black;
+}
+#main > h6 {
+    margin-top: 70px;
+}
+#offer {
+    text-align: center;
+    background-color: whitesmoke;
+    background-size:cover;
+    padding: 60px;
+}
+#offer > div {
+    display: inline-block;
+}
+#offer > h6 {
+    font-size:8px;
+    color: grey;
+}
+#offer > #kruh2 {
+    font-size: 9px;
+    color: grey;
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    width: 80px;
+    height: 15px;
+    border-radius: 15px;
+    align-items: center;
+}
+#about {
+    text-align: left;
+}
+#about > h2 {
+    font-size: 30px;
+}
+#about > #kruh3 {
+    font-size: 10px;
+    color: grey;
+    background: whitesmoke;
+    display: inline-flex;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+    border-radius: 25px;
+    align-items: center;
+}
+footer > ul {
+    list-style-type: none;
+}
+body {
+    border: 8.7px lightgrey solid;
+    padding: 10px;
+    margin: 0;
+}
